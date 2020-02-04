@@ -4,7 +4,7 @@ let total = 0;
 do {
     input = prompt('Введите число!');
     numbers.push(input);
-} while (input !== null && input !== null);
+} while (input !== null);
 
 for (const number of numbers) {
     total += Number(number);
